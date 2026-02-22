@@ -16,6 +16,10 @@ sites:
     port: 80
     check: "tcp-ping"
     ipv6: true
+  - name: Minecraft - Forge 1.7.10
+    url: 168.110.48.24
+    port: 32000
+    check: "tcp-ping"
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
